@@ -1,0 +1,158 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    margin: 0px;
+    font-family: "Slackey", sans-serif;
+    font-size: 2.5rem;
+}
+
+span {
+    font-weight: 900;
+    background-color: wheat;
+    padding: 4px 8px;
+    color: black;
+}
+
+h2{
+    margin: 0px;
+    font-family: "Roboto Mono", monospace;;
+}
+
+.header p {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.wraper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header { 
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    padding: 64px 0 32px 0px;
+}
+
+.inputs {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    background-color: rgb(64, 64, 66);
+    gap: 16px;
+}
+
+.scoreContainer {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 0px 40px 0px;
+    background-color: black;
+    color: white;
+} 
+
+.scoreBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+}
+
+.scoreBox h3 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.scoreBox p {
+    background-color: white;
+    padding: 16px;
+    margin: 0;
+    text-align: center;
+    width: 120px;
+    border-radius: 8px;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+}
+
+.choiceContainer {
+    background-color: bisque;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-grow: 1;
+    font-family: "Roboto Mono", monospace;
+}
+
+.choiceBox {
+    width: 460px;
+    text-align:  center;
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 10px 25px rgba(68, 66, 66, 0.25);
+}
+
+
+.choiceBtn { 
+    padding: 16px 24px;
+    font-family: "Slackey", sans-serif;
+    font-size: 1.2rem;
+    background-color: rgb(38, 38, 47);
+    color: wheat;
+    border-radius: 8px;
+    border: 2px solid rgb(215, 206, 200);
+}
+
+.choiceBtn:hover {
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: 0px 5px 10px rgba(42, 40, 40, 0.75);
+}
+
+.choiceBox p {
+    font-size: 5rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.endGame{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 25px rgba(68, 66, 66, 0.25);
+}
+
+.endGame h3{
+    margin-bottom: 0px;
+}
+
+.restartBtn { 
+    padding: 16px 24px;
+    font-family: "Slackey", sans-serif;
+    font-size: 1.2rem;
+    background-color: rgb(38, 38, 47);
+    color: wheat;
+    border-radius: 8px;
+    border: 2px solid rgb(215, 206, 200);
+    margin-top: 16px;
+}
+
+.restartBtn:hover {
+    background-color: rgb(91, 86, 86);
+    color: wheat;
+}

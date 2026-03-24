@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="javascript.js"></script>
+    <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"  defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Slackey&display=swap" rel="stylesheet">
+    
+    
 </head>
 <body>
+    <div class="wraper">
 
+        <div class="header">
+            <h2>Let's Play...</h2>
+            <h1>Rock, Paper, Scissor!</h1>
+            <p>Who gets five points first? <span>You</span> or the <span>Machine?</span></p>
+        </div>
+
+        <div class="inputs">
+            <button id="rockBtn" class="choiceBtn">✊ Rock</button>
+            <button id="paperBtn" class="choiceBtn">🖐️ Paper</button>
+            <button id="scissorBtn" class="choiceBtn">✌️ Scissor</button>
+        </div>
+
+        <div class="choiceContainer">
+            <div class="choiceBox">
+                <h3>Human Choice</h3>
+                <p id="humanBox"></p>
+            </div>
+            <div class="choiceBox">
+                <h3>Computer Choice</h3>
+                <p id="computerBox"></p>
+            </div>
+        </div>
+
+        <div class="scoreContainer">
+            <div class="scoreBox">
+                <h3>Human Wins</h3>
+                <p id="humanWins">0</p>
+            </div>
+            <div class="scoreBox">
+                <h3>Draws</h3>
+                <p id="draws">0</p>
+            </div>
+            <div class="scoreBox">
+                <h3>Computer Wins</h3>
+                <p id="computerWins">0</p>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
